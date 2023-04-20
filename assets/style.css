@@ -13,6 +13,10 @@ hr {
     margin: auto;
 }
 
+.reduced-margin-bottom {
+    margin-bottom: 15px !important;
+}
+
 .no-right-border {
     border-right: none !important;
 }
@@ -27,6 +31,7 @@ hr {
     justify-content: space-around;
     padding: 13px 0px;
     border-bottom: 1px solid black;
+    z-index: 10;
 }
 
 .logo {
@@ -126,6 +131,7 @@ hr {
     border: 2px solid #EDEDED;
     justify-items: center; 
     align-items: center;
+    position: relative;
 }
 
 .book-container .book-example .book .book-image {
@@ -140,11 +146,11 @@ hr {
     box-shadow: 5px 5px 5px lightblue;
 }
 
-.book-container .book-example .book .book-image img:hover {
+/* .book-container .book-example .book .book-image img:hover {
     transform: scale(1.1, 1.1);
     transition: 0.5s;
     cursor: pointer;
-}
+} */
 
 .book-container .book-example .book .book-type {
     width: 80%;
@@ -154,6 +160,7 @@ hr {
     font-weight: bold;
     margin-bottom: 6px;
     font-size: 0.7rem;
+    padding-top: 20px;
 }
 
 .book-container .book-example .book .book-title {
@@ -184,6 +191,65 @@ hr {
     font-weight: bold;
     margin-bottom: 40px;
 }
+
+.book:hover .slider {
+    visibility: inherit;
+}
+
+.book:hover .book-image img {
+    transform: scale(1.1, 1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.book:hover {
+    border: 1px solid black !important;
+    box-shadow: 1px 1px black;
+}
+
+.slider {
+    visibility: hidden;
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-items: center; 
+    align-items: center;
+    color: black;
+}
+
+.book-interaction {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.book-interaction a {
+    color: black;
+
+}
+
+.book-favorite {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.book-icon {
+    padding: 6px;
+}
+
+.book-icon:hover {
+    background-color: #E8504D;
+    border-radius: 50%;
+    color: white;
+}
+
+
 
 .footer {
     font-size: 1rem;
