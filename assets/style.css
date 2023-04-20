@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-width: 0;
+}
+
+hr {
+    border-top: 1px solid black;
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.no-right-border {
+    border-right: none !important;
+}
+
+.header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    font-size: 1rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 13px 0px;
+    border-bottom: 1px solid black;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 2.5rem;
+    color: black;
+    text-decoration: none;
+}
+
+.navigation-bar {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-bar li {
+    display: inline-block;
+    border-right: 0.5px solid black;
+    padding: 5px 15px;
+}
+
+.navigation-bar li a {
+    color: black;
+    text-decoration: none;
+}
+
+.navigation-bar li a:hover {
+    color: #E8504D;
+}
+
+.banner {
+    width: 80%;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.banner .quote-container{
+    display: flex;
+    max-width: 70%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner .quote-container .quote-description {
+    padding: 10px 0px;
+    text-transform: uppercase;
+    color: #E8504D;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.banner .quote-container .quote-content {
+    padding: 10px 0px;
+    font-size: 3.5rem;
+}
+
+.banner .quote-container .quote-author {
+    padding: 10px 0px;
+    font-size: 1rem;
+}
+
+.book-container {
+    width: 80%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.book-container .book-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.book-container .book-banner img {
+    width: 100%;
+}
+
+.book-container .book-example {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.book-container .book-example .book {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #EDEDED;
+    justify-items: center; 
+    align-items: center;
+}
+
+.book-container .book-example .book .book-image {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center; 
+}
+
+.book-container .book-example .book .book-image img {
+    width: 60%;
+    border: 0.1px solid black;
+    box-shadow: 5px 5px 5px lightblue;
+}
+
+.book-container .book-example .book .book-image img:hover {
+    transform: scale(1.1, 1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.book-container .book-example .book .book-type {
+    width: 80%;
+    text-align: left;
+    text-transform: uppercase;
+    color: #E8504D;
+    font-weight: bold;
+    margin-bottom: 6px;
+    font-size: 0.7rem;
+}
+
+.book-container .book-example .book .book-title {
+    width: 80%;
+    max-width: 250px;
+    height: 30px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.book-container .book-example .book .book-author {
+    width: 80%;
+    text-align: left;
+    color: grey;
+    font-size: 1rem;
+    margin-bottom: 6px;
+}
+
+.book-container .book-example .book .book-price {
+    width: 80%;
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.footer {
+    font-size: 1rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 13px 0px;
+    border-bottom: 1px solid black;
+}
+
+.copyrights {
+    background-color: black;
+    font-size: 1rem;
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 10px 0px;
+}
