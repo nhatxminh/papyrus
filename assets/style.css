@@ -21,6 +21,14 @@ hr {
     border-right: none !important;
 }
 
+.black-background {
+    background-color: black !important;
+}
+
+.full-width {
+    width: 100% !important;
+}
+
 .header {
     background-color: white;
     position: sticky;
@@ -101,6 +109,13 @@ hr {
     font-size: 1rem;
 }
 
+.book-category {
+    color: white;
+    font-size: 4rem;
+    padding: 30px 0px;
+    font-weight: bold;
+}
+
 .book-container {
     width: 80%;
     margin-top: 40px;
@@ -146,19 +161,13 @@ hr {
     box-shadow: 5px 5px 5px lightblue;
 }
 
-/* .book-container .book-example .book .book-image img:hover {
-    transform: scale(1.1, 1.1);
-    transition: 0.5s;
-    cursor: pointer;
-} */
-
 .book-container .book-example .book .book-type {
     width: 80%;
     text-align: left;
     text-transform: uppercase;
     color: #E8504D;
     font-weight: bold;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
     font-size: 0.7rem;
     padding-top: 20px;
 }
@@ -170,7 +179,7 @@ hr {
     text-align: left;
     font-weight: bold;
     font-size: 1.3rem;
-    margin-bottom: 6px;
+    margin-bottom: 2px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -181,7 +190,7 @@ hr {
     text-align: left;
     color: grey;
     font-size: 1rem;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
 }
 
 .book-container .book-example .book .book-price {
@@ -197,8 +206,8 @@ hr {
 }
 
 .book:hover .book-image img {
-    transform: scale(1.1, 1.1);
-    transition: 0.5s;
+    transform: scale(1.2,1.2);
+    transition: 1s;
     cursor: pointer;
 }
 
@@ -234,7 +243,7 @@ hr {
 }
 
 .book-favorite {
-    width: 30%;
+    width: 35%;
     display: flex;
     justify-content: space-between;
 }
