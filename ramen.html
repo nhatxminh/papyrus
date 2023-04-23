@@ -1,3 +1,15 @@
+<!-- RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Hoang Nguyen Nhat Minh
+ID: s3977856
+Acknowledgement: 
+- Fontawesome icon: https://fontawesome.com/
+- Google icon: https://fonts.google.com/icons
+- Inspiration from Pinterest: https://dribbble.com/shots/2552544-iPad-App-for-Readers-Writers
+- Inspiration from Download New Themes: https://www.downloadnewthemes.com/2020/05/bookworm-bookstore-bookshop-ecommerce.html -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +26,8 @@
     <title>Papyrus</title>
 </head>
 <body>
-    <div class="header">
+    <!-- Header -->
+    <header class="header">
         <div class="logo">
             <b><i><a href="index.html">Papyrus</a></i></b>
         </div>
@@ -26,51 +39,61 @@
                 <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
             </li>
         </ul>
-    </div>
-    <div class="banner black-background full-width book-detail-banner">
-        <div class="image-holder">
-            <div class="large-image">
-                <img src="assets\img\book21.jpg" alt="Ramen for Everyone">
-            </div>
-            <div class="small-image">
-                <div class="small-image-component">
-                    <img src="assets\img\book21-1.jpg" alt="sub image for Ramen for Everyone">
+    </header>
+    <!-- Header -->
+    <!-- Main content -->
+    <main>
+        <!-- Title & Image -->
+        <section class="banner black-background full-width book-detail-banner">
+            <div class="image-holder">
+                <div class="large-image">
+                    <img src="assets\img\book21.jpg" alt="Ramen for Everyone">
                 </div>
-                <div class="small-image-component">
-                    <img src="assets\img\book21-2.jpg" alt="sub image for Ramen for Everyone">
+                <div class="small-image">
+                    <div class="small-image-component">
+                        <img src="assets\img\book21-1.jpg" alt="sub image for Ramen for Everyone">
+                    </div>
+                    <div class="small-image-component">
+                        <img src="assets\img\book21-2.jpg" alt="sub image for Ramen for Everyone">
+                    </div>
+                    <div class="small-image-component">
+                        <img src="assets\img\book21-3.jpg" alt="sub image for Ramen for Everyone">
+                    </div>
                 </div>
-                <div class="small-image-component">
-                    <img src="assets\img\book21-3.jpg" alt="sub image for Ramen for Everyone">
+            </div>
+            <div class="book-name" title="Ramen for Everyone">
+                Ramen for Everyone
+            </div>
+        </section>
+        <!-- Title & Image -->
+        <!-- Book description -->
+        <section class="book-description">
+            <div class="book-info">
+                <div class="breadcumb">
+                    <a href="index.html">Home</a>><a href="childrenbooks.html">Children's Books</a>><a href="ramen.html">Ramen for Everyone</a>
                 </div>
+                <div class="about">
+                    About
+                </div>
+                In this adorable picture book for fans of Amy Wu and the Perfect Bao and Bilal Cooks Daal, Hiro aspires to make a bowl of ramen as delicious as his dad’s—and runs into some surprises on his first attempt!
+                <br>
+                <br>
+                Hiro loves ramen. Every Sunday, Hiro’s dad makes delicious, perfect ramen for dinner, using a recipe passed down from his dad. There’s nori seaweed, briny like the ocean; nitamago egg, the yolk golden like the sun; and chashu pork so tender, it melts in your mouth. Yum!
+                <br>
+                <br>
+                Hiro’s dream is to make his own perfect bowl, and he’s sure he can do it after watching his dad and taking notes. But when he gets started, things don’t go according to plan. The seaweed crumbles! The eggs slip through his fingers! The pork falls apart! Hiro is worried he’ll never be a real ramen chef…but thanks to his father’s wise advice and his own creativity, Hiro discovers that every person’s perfect bowl of ramen is unique.
             </div>
-        </div>
-        <div class="book-name" title="Ramen for Everyone">
-            Ramen for Everyone
-        </div>
-    </div>
-    <div class="book-description">
-        <div class="book-info">
-            <div class="breadcumb">
-                <a href="index.html">Home</a>><a href="childrenbooks.html">Children's Books</a>><a href="ramen.html">Ramen for Everyone</a>
+            <div class="book-order">
+                <div class="book-cost"><a href="#">Buy $29</a></div>
+                <div class="book-buy"><a href="#">Add to cart</a></div>
             </div>
-            <div class="about">
-                About
-            </div>
-            In this adorable picture book for fans of Amy Wu and the Perfect Bao and Bilal Cooks Daal, Hiro aspires to make a bowl of ramen as delicious as his dad’s—and runs into some surprises on his first attempt!
-            <br>
-            <br>
-            Hiro loves ramen. Every Sunday, Hiro’s dad makes delicious, perfect ramen for dinner, using a recipe passed down from his dad. There’s nori seaweed, briny like the ocean; nitamago egg, the yolk golden like the sun; and chashu pork so tender, it melts in your mouth. Yum!
-            <br>
-            <br>
-            Hiro’s dream is to make his own perfect bowl, and he’s sure he can do it after watching his dad and taking notes. But when he gets started, things don’t go according to plan. The seaweed crumbles! The eggs slip through his fingers! The pork falls apart! Hiro is worried he’ll never be a real ramen chef…but thanks to his father’s wise advice and his own creativity, Hiro discovers that every person’s perfect bowl of ramen is unique.
-        </div>
-        <div class="book-order">
-            <div class="book-cost"><a href="#">Buy $29</a></div>
-            <div class="book-buy"><a href="#">Add to cart</a></div>
-        </div>
-    </div>
+        </section>
+        <!-- Book description -->
+    </main>
+    <!-- Main content -->
     <hr>
-    <div class="footer">
+    <!-- Footer -->
+    <footer class="footer">
         <ul class="navigation-bar">
             <li><a href="#">About Us</a></li>
             <li><a href="#">Privacy Policy</a></li>
@@ -78,8 +101,11 @@
             <li><a href="#">Copyright</a></li>
             <li class="no-right-border"><a href="contact.html">Contact Us</a></li>
         </ul>
-    </div>
+    </footer>
+    <!-- Footer -->
+    <!-- Copyright -->
     <div class="copyrights">
         ©2023 Papyrus. All rights reserved 
     </div>
+    <!-- Copyright -->
 </body>

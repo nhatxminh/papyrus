@@ -1,3 +1,15 @@
+<!-- RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Hoang Nguyen Nhat Minh
+ID: s3977856
+Acknowledgement: 
+- Fontawesome icon: https://fontawesome.com/
+- Google icon: https://fonts.google.com/icons
+- Inspiration from Pinterest: https://dribbble.com/shots/2552544-iPad-App-for-Readers-Writers
+- Inspiration from Download New Themes: https://www.downloadnewthemes.com/2020/05/bookworm-bookstore-bookshop-ecommerce.html -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +26,8 @@
     <title>Papyrus</title>
 </head>
 <body>
-    <div class="header">
+    <!-- Header -->
+    <header class="header">
         <div class="logo">
             <b><i><a href="index.html">Papyrus</a></i></b>
         </div>
@@ -26,48 +39,58 @@
                 <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
             </li>
         </ul>
-    </div>
-    <div class="banner black-background full-width book-detail-banner">
-        <div class="image-holder">
-            <div class="large-image">
-                <img src="assets\img\book13.jpg" alt="How to Live: Or A Life of Montaigne in One Question and Twenty Attempts at an Answer">
-            </div>
-            <div class="small-image">
-                <div class="small-image-component">
-                    <img src="assets\img\book13-1.jpg" alt="sub image forHow to Live: Or A Life of Montaigne in One Question and Twenty Attempts at an Answer">
+    </header>
+    <!-- Header -->
+    <!-- Main content -->
+    <main>
+        <!-- Title & Image -->
+        <section class="banner black-background full-width book-detail-banner">
+            <div class="image-holder">
+                <div class="large-image">
+                    <img src="assets\img\book13.jpg" alt="How to Live: Or A Life of Montaigne in One Question and Twenty Attempts at an Answer">
                 </div>
-                <div class="small-image-component">
-                    <img src="assets\img\book13-2.jpg" alt="sub image for How to Live: Or A Life of Montaigne in One Question and Twenty Attempts at an Answer">
+                <div class="small-image">
+                    <div class="small-image-component">
+                        <img src="assets\img\book13-1.jpg" alt="sub image forHow to Live: Or A Life of Montaigne in One Question and Twenty Attempts at an Answer">
+                    </div>
+                    <div class="small-image-component">
+                        <img src="assets\img\book13-2.jpg" alt="sub image for How to Live: Or A Life of Montaigne in One Question and Twenty Attempts at an Answer">
+                    </div>
+                    <div class="small-image-component">
+                        <img src="assets\img\book13-3.jpg" alt="sub image for How to Live: Or A Life of Montaigne in One Question and Twenty Attempts at an Answer">
+                    </div>
                 </div>
-                <div class="small-image-component">
-                    <img src="assets\img\book13-3.jpg" alt="sub image for How to Live: Or A Life of Montaigne in One Question and Twenty Attempts at an Answer">
+            </div>
+            <div class="book-name" title="How to Live: Or A Life of Montaigne in One Question and Twenty Attempts at an Answer">
+                How to Live: Or A Life of Montaigne in One Question and Twenty Attempts at an Answer
+            </div>
+        </section>
+        <!-- Title & Image -->
+        <!-- Book description -->
+        <section class="book-description">
+            <div class="book-info">
+                <div class="breadcumb">
+                    <a href="index.html">Home</a>><a href="textbooks.html">Textbooks</a>><a href="montaigne.html">How to Live: Or A Life of Montaigne in One Question and Twenty Attempts at an Answer</a>
                 </div>
+                <div class="about">
+                    About
+                </div>
+                Winner of the 2010 National Book Critics Circle Award for Biography
+                <br>
+                <br>
+                How to get along with people, how to deal with violence, how to adjust to losing someone you love—such questions arise in most people’s lives. They are all versions of a bigger question: How do you live? This question obsessed Renaissance writers, none more than Michel Eyquem de Montaigne, considered by many to be the first truly modern individual. He wrote free-roaming explorations of his thoughts and experience, unlike anything written before. More than four hundred years later, Montaigne’s honesty and charm still draw people to him. Readers come to him in search of companionship, wisdom, and entertainment —and in search of themselves. Just as they will to this spirited and singular biography.
             </div>
-        </div>
-        <div class="book-name" title="How to Live: Or A Life of Montaigne in One Question and Twenty Attempts at an Answer">
-            How to Live: Or A Life of Montaigne in One Question and Twenty Attempts at an Answer
-        </div>
-    </div>
-    <div class="book-description">
-        <div class="book-info">
-            <div class="breadcumb">
-                <a href="index.html">Home</a>><a href="textbooks.html">Textbooks</a>><a href="montaigne.html">How to Live: Or A Life of Montaigne in One Question and Twenty Attempts at an Answer</a>
+            <div class="book-order">
+                <div class="book-cost"><a href="#">Buy $29</a></div>
+                <div class="book-buy"><a href="#">Add to cart</a></div>
             </div>
-            <div class="about">
-                About
-            </div>
-            Winner of the 2010 National Book Critics Circle Award for Biography
-            <br>
-            <br>
-            How to get along with people, how to deal with violence, how to adjust to losing someone you love—such questions arise in most people’s lives. They are all versions of a bigger question: How do you live? This question obsessed Renaissance writers, none more than Michel Eyquem de Montaigne, considered by many to be the first truly modern individual. He wrote free-roaming explorations of his thoughts and experience, unlike anything written before. More than four hundred years later, Montaigne’s honesty and charm still draw people to him. Readers come to him in search of companionship, wisdom, and entertainment —and in search of themselves. Just as they will to this spirited and singular biography.
-        </div>
-        <div class="book-order">
-            <div class="book-cost"><a href="#">Buy $29</a></div>
-            <div class="book-buy"><a href="#">Add to cart</a></div>
-        </div>
-    </div>
+        </section>
+        <!-- Book description -->
+    </main>
+    <!-- Main content -->
     <hr>
-    <div class="footer">
+    <!-- Footer -->
+    <footer class="footer">
         <ul class="navigation-bar">
             <li><a href="#">About Us</a></li>
             <li><a href="#">Privacy Policy</a></li>
@@ -75,8 +98,11 @@
             <li><a href="#">Copyright</a></li>
             <li class="no-right-border"><a href="contact.html">Contact Us</a></li>
         </ul>
-    </div>
+    </footer>
+    <!-- Footer -->
+    <!-- Copyright -->
     <div class="copyrights">
         ©2023 Papyrus. All rights reserved 
     </div>
+    <!-- Copyright -->
 </body>

@@ -1,3 +1,15 @@
+<!-- RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Hoang Nguyen Nhat Minh
+ID: s3977856
+Acknowledgement: 
+- Fontawesome icon: https://fontawesome.com/
+- Google icon: https://fonts.google.com/icons
+- Inspiration from Pinterest: https://dribbble.com/shots/2552544-iPad-App-for-Readers-Writers
+- Inspiration from Download New Themes: https://www.downloadnewthemes.com/2020/05/bookworm-bookstore-bookshop-ecommerce.html -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +26,8 @@
     <title>Papyrus</title>
 </head>
 <body>
-    <div class="header">
+    <!-- Header -->
+    <header class="header">
         <div class="logo">
             <b><i><a href="index.html">Papyrus</a></i></b>
         </div>
@@ -26,48 +39,58 @@
                 <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
             </li>
         </ul>
-    </div>
-    <div class="banner black-background full-width book-detail-banner">
-        <div class="image-holder">
-            <div class="large-image">
-                <img src="assets\img\book5.jpg" alt="Campell Biology">
-            </div>
-            <div class="small-image">
-                <div class="small-image-component">
-                    <img src="assets\img\book5-1.jpg" alt="sub image for The Gruffalo">
+    </header>
+    <!-- Header -->
+    <!-- Main content -->
+    <main>
+        <!-- Title & Image -->
+        <section class="banner black-background full-width book-detail-banner">
+            <div class="image-holder">
+                <div class="large-image">
+                    <img src="assets\img\book5.jpg" alt="Campell Biology">
                 </div>
-                <div class="small-image-component">
-                    <img src="assets\img\book5-2.jpg" alt="sub image for The Gruffalo">
+                <div class="small-image">
+                    <div class="small-image-component">
+                        <img src="assets\img\book5-1.jpg" alt="sub image for The Gruffalo">
+                    </div>
+                    <div class="small-image-component">
+                        <img src="assets\img\book5-2.jpg" alt="sub image for The Gruffalo">
+                    </div>
+                    <div class="small-image-component">
+                        <img src="assets\img\book5-3.jpg" alt="sub image for The Gruffalo">
+                    </div>
                 </div>
-                <div class="small-image-component">
-                    <img src="assets\img\book5-3.jpg" alt="sub image for The Gruffalo">
+            </div>
+            <div class="book-name" title="The Gruffalo">
+                The Gruffalo
+            </div>
+        </section>
+        <!-- Title & Image -->
+        <!-- Book description -->
+        <section class="book-description">
+            <div class="book-info">
+                <div class="breadcumb">
+                    <a href="index.html">Home</a>><a href="textbooks.html">Textbooks</a>><a href="thegruffalo.html">The Gruffalo</a>
                 </div>
+                <div class="about">
+                    About
+                </div>
+                Julia Donaldson's trademark rhyming text and Axel Scheffler's brilliant, characterful illustrations come together in this perfect read aloud—now available as a board book
+                <br>
+                <br>
+                When Mouse takes a stroll through the woods, he meets a fox, an owl, and a snake who all want to eat him! So Mouse invents a gruffalo, a monster with "terrible tusks and terrible claws, terrible teeth, and terrible jaws." But will Mouse's frightful description be enough to scare off his foes? After all, there's no such thing as a gruffalo . . . is there? Sturdy pages and a cozy trim make this rhyming read-aloud perfect for preschoolers. Winner of the prestigious British Smarties Prize.
             </div>
-        </div>
-        <div class="book-name" title="The Gruffalo">
-            The Gruffalo
-        </div>
-    </div>
-    <div class="book-description">
-        <div class="book-info">
-            <div class="breadcumb">
-                <a href="index.html">Home</a>><a href="textbooks.html">Textbooks</a>><a href="thegruffalo.html">The Gruffalo</a>
+            <div class="book-order">
+                <div class="book-cost"><a href="#">Buy $29</a></div>
+                <div class="book-buy"><a href="#">Add to cart</a></div>
             </div>
-            <div class="about">
-                About
-            </div>
-            Julia Donaldson's trademark rhyming text and Axel Scheffler's brilliant, characterful illustrations come together in this perfect read aloud—now available as a board book
-            <br>
-            <br>
-            When Mouse takes a stroll through the woods, he meets a fox, an owl, and a snake who all want to eat him! So Mouse invents a gruffalo, a monster with "terrible tusks and terrible claws, terrible teeth, and terrible jaws." But will Mouse's frightful description be enough to scare off his foes? After all, there's no such thing as a gruffalo . . . is there? Sturdy pages and a cozy trim make this rhyming read-aloud perfect for preschoolers. Winner of the prestigious British Smarties Prize.
-        </div>
-        <div class="book-order">
-            <div class="book-cost"><a href="#">Buy $29</a></div>
-            <div class="book-buy"><a href="#">Add to cart</a></div>
-        </div>
-    </div>
+        </section>
+        <!-- Book description -->
+    </main>
+    <!-- Main content -->
     <hr>
-    <div class="footer">
+    <!-- Footer -->
+    <footer class="footer">
         <ul class="navigation-bar">
             <li><a href="#">About Us</a></li>
             <li><a href="#">Privacy Policy</a></li>
@@ -75,8 +98,11 @@
             <li><a href="#">Copyright</a></li>
             <li class="no-right-border"><a href="contact.html">Contact Us</a></li>
         </ul>
-    </div>
+    </footer>
+    <!-- Footer -->
+    <!-- Copyright -->
     <div class="copyrights">
         ©2023 Papyrus. All rights reserved 
     </div>
+    <!-- Copyright -->
 </body>
